@@ -113,7 +113,6 @@ header{
     color: black;
 }
 
-
 /*OPCIONES DE INGRESO JOHN ALEXANDER SEGURA*/
 
 main{
@@ -144,11 +143,27 @@ article hr{
     margin-left: 10px;
 }
 
-article p{
-    font-size: 20px;
-    margin-top: 20px;
-    font-weight: 100;
-    margin-left: 10px;
+/*OPCIONES DE INGRESO CONTENEDOR 2 JOHN ALEXANDER SEGURA*/
+
+.content-dos{
+    width: 100%;
+    padding: 10px;
+    background: black;
+}
+
+.content-tres{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-item2{
+    width: 300px;
+    text-align: center;
+    margin: 18px;
+    color: aliceblue;
 }
 
 
