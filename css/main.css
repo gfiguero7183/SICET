@@ -117,15 +117,18 @@ header{
 
 main{
     width: 100%;
-    max-width: 1200px;
     margin: auto;
+    position: relative;
 }
 
 article{
     width: 100%;
-    max-width: 800px;
-    margin-top: 20px;
+    margin: auto;
+    position: relative;
+    margin-top: none;
     padding-right: 20px;
+    background: black;
+    color: white;
 }
 
 article h1{
@@ -162,11 +165,28 @@ article hr{
 .content-item2{
     width: 300px;
     text-align: center;
-    margin: 18px;
+    margin: 8px;
     color: aliceblue;
+    font-size: 10px;
 }
 
+.content-item2 p{
+    text-align: center;
+    margin-top: 20px;
+    color: #3b3838;
+    font-weight: 500;
+}
 
+.content-item2 button{
+    background: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 10px;
+    color: black;
+    cursor: pointer;
+    outline: none;
+
+}
 
 @media screen and (max-width: 500px){
     .instru p{
