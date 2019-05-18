@@ -113,22 +113,20 @@ header{
     color: black;
 }
 
+
 /*OPCIONES DE INGRESO JOHN ALEXANDER SEGURA*/
 
 main{
     width: 100%;
+    max-width: 1200px;
     margin: auto;
-    position: relative;
 }
 
 article{
     width: 100%;
-    margin: auto;
-    position: relative;
-    margin-top: none;
+    max-width: 800px;
+    margin-top: 20px;
     padding-right: 20px;
-    background: black;
-    color: white;
 }
 
 article h1{
@@ -146,119 +144,17 @@ article hr{
     margin-left: 10px;
 }
 
-/*OPCIONES DE INGRESO CONTENEDOR 2 JOHN ALEXANDER SEGURA*/
-
-.content-dos{
-    width: 100%;
-    padding: 10px;
-    background: black;
-}
-
-.content-tres{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.content-item2{
-    width: 300px;
-    text-align: center;
-    margin: 8px;
-    color: aliceblue;
-    font-size: 10px;
-}
-
-.content-item2 p{
-    text-align: center;
+article p{
+    font-size: 20px;
     margin-top: 20px;
-    color: #3b3838;
-    font-weight: 500;
+    font-weight: 100;
+    margin-left: 10px;
 }
 
-.content-item2 button{
-    width: 150px;
-    background: linear-gradient(90deg, rgb(6, 114, 208), rgba(255, 255, 255, 0.73));
-    border: none;
-    padding: 10px 30px;
-    font-size: 10px;
-    color: black;
-    cursor: pointer;
-    outline: none;
-    border-radius: 6xp;
-}
-
-
-.content-item2 button:hover{
-    background: white;
-    transform: translateY(5px);
-    box-shadow: 0px 20px 3px -13px rgba(212, 212, 212);
-}
 
 
 @media screen and (max-width: 500px){
     .instru p{
         font-size: 18px;
     }
-}
-
-/*OPCIONES DE REGISTRO CTP - GIOVANNY FIGUEROA GARCIA*/
-
-body { 
-	background-color: black; 
-}
-
-.logo-ponal img{
-    width: 55px;
-    height: 55px;
-    margin-top: 3px;
-    margin-left: 1px;
-}
-
-h3{
-	font-size: 25px;
-	font-style: italic;
-	color:black;
-}
-h4{
-	font-size: 18px;
-	font-style: italic;
-	font-weight: bold;
-	color:black;
-}
-h5{
-	font-size: 14px;
-	font-style: italic;
-	color:white;
-}
-
-hr{
-    max-width: 1500px;
-    height: 2px;
-    border-style: none;
-    background: -webkit-linear-gradient(left, black, #0672d0);
-    margin-top: 10px;
-    margin-left: 0px;
-}
-
-.encabezado{
-	background-color:#F8F8F8;
-}
-
-.forma{
-	background-color:#F8F8F8;
-}
-
-#detalle{
-	background-color:#F8F8F8;
-}
-
-#pc{
-	background-color:#F8F8F8;
-}
-
-#conduccion{
-	background-color:#F8F8F8;
-	color:black;
 }
