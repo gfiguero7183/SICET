@@ -34,17 +34,17 @@
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-						<a class="navbar-brand">SICET</a></div>
+						<a class="navbar-brand" href="menupal.html">SICET</a></div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="defaultNavbar1">
 					  <ul class="nav navbar-nav">
 					    <li class="dropdown"><a href="#" class="registros-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registro<span class="caret"></span></a>
 					      <ul class="dropdown-menu">
-					        <li><a href="#ingreso">Ingresos</a></li>
+					        <li><a href="Ingreso_CTP.html">Ingresos</a></li>
 					        <li role="separator" class="divider"></li>
-					        <li><a href="#salida">Salidas</a></li>
+					        <li><a href="Salida_CTP.html">Salidas</a></li>
 					        <li role="separator" class="divider"></li>
-					        <li><a href="#crear">Crear Persona</a></li>
+					        <li><a href="Crear_Persona.html">Crear Persona</a></li>
 				          </ul>
 				        </li>
 					    <li><a href="#usuario">Usuario</a></li>
@@ -60,26 +60,45 @@
 <div class="encabezado col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1" id="encabezad">
     <div>
       <h1 class="text-center">REGISTRO CTP</h1>
-      <h3 class="text-center">CREAR PERSONA</h3>
+      <h3 class="text-center">INGRESO</h3>
     </div>
   <hr>
 </div>
 
 <div class="forma col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center" id="forma">
 	<form>
-		<input type="text" size="15" id="tipoid" placeholder="Tipo Identificacion" autocomplete="on">
-		<input type="text" size="20" id="identificacion" placeholder="N° Identificacion" autocomplete="on" onkeypress="return validarnumeros(event)">
-		<input type="text" size="25" id="genero" placeholder="Genero" autocomplete="on"><br>
-		<input type="text" size="49" id="apellidos" placeholder="Apellidos">
-		<input type="date" id="f_nacimiento"><br>
-		<input type="text" size="49" id="nombres" placeholder="Nombres">
-		<input type="text" size="17" id="edad" placeholder="Edad" readonly onmousedown="return false;"><br>
-		<input type="text" size="49" id="direccion" placeholder="Direccion">
-		<input type="text" size="17" id="telefono" placeholder="Telefono" onkeypress="return validarnumeros(event)"><br>
-		<input type="text" size="71" id="ocupacion" placeholder="Ocupacion">
-<hr>
-<div>
-   	  <input type="button" value= " CREAR PERSONA "><br>
+		<input type="text" size="5" id="tipoid" placeholder="ID" autocomplete="on">
+		<input type="text" id="identificacion" placeholder="Identificacion" autocomplete="on" onkeypress="return validarnumeros(event)">
+		<input type="text" id="genero" placeholder="Genero" autocomplete="on">
+		<input type="date" id="f_nacimiento">
+		<input type="text" size="4" id="edad" placeholder="Edad" readonly onmousedown="return false;"><br>
+		<input type="text" size="35" id="apellidos" placeholder="Apellidos">
+		<input type="text" size="35" id="nombres" placeholder="Nombres">
+		<input type="text" size="8" id="telefono" placeholder="Telefono" autocomplete="on" onkeypress="return validarnumeros(event)">
+	<hr>
+		<input type="text" id="nreg" placeholder="N° Registro" autocomplete="on" readonly onmousedown="return false;">
+		<input type="date" id="f_ingreso">
+		<input type="time" id="h_ingreso">
+		<hr>
+		<div class="col-md-12" id="detalle">
+		  <article class="col-md-6" id="pc">
+		    <h4 class="text-center">Policia Conduce</h4>
+		    <input type="text" size="15" id="idpolicia" placeholder="Identificacion" autocomplete="on">
+		  		<input type="text" size="8" id="placapolicia" placeholder="Placa" autocomplete="on">
+		  		<br>
+		  		<input type="text" size="45" id="appolicia" placeholder="Apellidos">
+				<input type="text" size="45" id="nmpolicia" placeholder="Nombres">
+		  </article>
+       	  <article class="col-md-6" id="conduccion">
+       	    <h4 class="text-center">Detalle Conduccion</h4>
+       	    <input type="date" id="f_conduccion">
+			<input type="time" id="h_detencion">
+			<br>
+			<input type="text" size="35" id="motivo" placeholder="Motivo" autocomplete="on">
+       	  </article>
+      </div>
+      <div>
+      	<input type="button" value= "GRABAR INGRESO"><br>
       </div>
       
 	</form>
