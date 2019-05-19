@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ingreso CTP</title>
+<title>Cambiar Contraseña</title>
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <style type="text/css">
-.text-cen {
-}
+    body,td,th {
+	color: #FFF;
 </style>
 <link href="css/main.css" rel="stylesheet" type="text/css">
     <script src="js/codigo-SICET.js" language="javascript" type="text/javascript"></script>
@@ -57,34 +57,13 @@
 	</div>
 </header>
 
-<div class="encabezado col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1" id="encabezad">
-    <div>
-      <h1 class="text-center">REGISTRO CTP</h1>
-      <h3 class="text-center">CREAR PERSONA</h3>
-    </div>
-  <hr>
-</div>
-
-<div class="forma col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center" id="forma">
-	<form>
-		<input type="text" size="15" id="tipoid" placeholder="Tipo Identificacion" autocomplete="on">
-		<input type="text" size="20" id="identificacion" placeholder="N° Identificacion" autocomplete="on" onkeypress="return validarnumeros(event)">
-		<input type="text" size="25" id="genero" placeholder="Genero" autocomplete="on"><br>
-		<input type="text" size="49" id="apellidos" placeholder="Apellidos">
-		<input type="date" id="f_nacimiento"><br>
-		<input type="text" size="49" id="nombres" placeholder="Nombres">
-		<input type="text" size="17" id="edad" placeholder="Edad" readonly onmousedown="return false;"><br>
-		<input type="text" size="49" id="direccion" placeholder="Direccion">
-		<input type="text" size="17" id="telefono" placeholder="Telefono" onkeypress="return validarnumeros(event)"><br>
-		<input type="text" size="71" id="ocupacion" placeholder="Ocupacion">
-<hr>
-<div>
-   	  <input type="button" value= " CREAR PERSONA "><br>
-      </div>
-      
-	</form>
-	<hr>
-</div>
+<form class="text-center" id="fcpass">
+  <h2 class="text-center">CAMBIO DE CONTRASEÑA</h2><br>
+  <input type= "password" "USUARIO" size="60" placeholder="&#128272; Contraseña Anterior" name="usuario" required><br><br>
+  <input type= "password" "CONTRASEÑA" size="60" placeholder="&#128273; Nueva Contraseña" name="clave" required><br><br>
+  <input type= "password" "CONTRASEÑA" size="60" placeholder="&#128273; Repetir Contraseña (Validación)" name="clave" required><br><br>
+  <input type="submit" value="CAMBIAR" id="boton">
+</form>
 
 <div class="pie">
 	<div class="text-center col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">

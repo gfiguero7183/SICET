@@ -273,3 +273,34 @@ hr{
 	background-color:#F8F8F8;
 	color:black;
 }
+
+#fcpass {
+	margin: auto;
+	width: 50%;
+	max-width:500px;
+	background: rgba(0,0,0,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+
+.fcpass h2{
+	color: #fff;
+	text-align:center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+#boton{
+	background:#31384A;
+	color:#fff;
+	padding:10px;
+}
+
+#boton:hover{
+	cursor:pointer;
+}
+
+
