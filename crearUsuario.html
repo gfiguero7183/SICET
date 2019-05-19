@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse navbar-static-top">
+			
+    <div class="container logo-ppal">
+
+        <!-- Encabezado de nuestro Menu -->
+        <div class="navbar-header">
+            <img src="imagenes/escudoean.png" style="width: 120px;" alt="">
+
+            <!-- Boton hamburguesa, solo visible en dispositivos moviles -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#btn-colapsar">
+                <span class="sr-only">Navegacion</span>
+                
+            </button>
+        </div>
+
+
+
+        <!-- Elementos del Menu -->
+        <!-- Links y formulario -->
+        <div class="collapse navbar-collapse" id="btn-colapsar">
+
+            <!-- Links del Menu -->
+            <ul class="nav navbar-nav">
+                <li><a href="menupal.html">Inicio</a></li>
+                <li><a href="ingreso.html">Usuario</a></li>
+
+            </ul>
+
+            
+        
+            <form class="navbar-form navbar-right"  role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Buscar">
+                    <button type="submit" class="btn btn-default">Buscar</button>
+                </div>
+            </form>
+        </div>
+
+        
+        
+    </div>				
+</nav>
+  
+    <form class="form-horizontal" action="/action_page.php">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="nombre">Nombre:</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+          </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="apellido">Apellido:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+            </div>
+          </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="grado">Grado:</label>
+          <div class="col-sm-10"> 
+            <input type="text" class="form-control" id="grado" placeholder="Ingrese Grado">
+          </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Unidad:</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="email" placeholder="Ingrese Unidad">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="rol">Rol:</label>
+            <div class="col-sm-10"> 
+              <input type="text" class="form-control" id="rol" placeholder="Ingrese rol">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="dir">Dirección:</label>
+            <div class="col-sm-10"> 
+              <input type="text" class="form-control" id="dir" placeholder="Ingrese dirección">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="tel">Telefono:</label>
+            <div class="col-sm-10"> 
+              <input type="number" class="form-control" id="tel" placeholder="Ingrese Telefono">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="usuario">Usuario:</label>
+            <div class="col-sm-10"> 
+              <input type="text" class="form-control" id="usuario" placeholder="Ingrese usuario">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="pwd">Password:</label>
+            <div class="col-sm-10"> 
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+            </div>
+          </div>
+        <div class="form-group"> 
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Aceptar</button>
+          </div>
+        </div>
+      </form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+</html>
