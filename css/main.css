@@ -42,7 +42,7 @@ header{
 
 .container-portada{
     width: 100%;
-    height: 400px;
+    height: 300px;
     position: relative;
     background-image: url(../imagenes/portada.jpg);
     background-size: 200%;
@@ -68,11 +68,11 @@ header{
 
 .container-instru{
     width: 100%;
+	height: auto;
     max-width: 1200px;
     position: relative;
     margin: auto;
 }
-
 
 .instru{
     width: 100%;
@@ -90,8 +90,7 @@ header{
 
 .instru p{
     margin-top: 10px;
-    font-size: 20px;
-    font-weight: 100;
+    font-size: 17px;
     margin-left: 10px;
 }
 
@@ -174,16 +173,17 @@ article hr{
     text-align: center;
     margin-top: 20px;
     color: #3b3838;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .content-item2 button{
     width: 150px;
-    background: linear-gradient(90deg, rgb(6, 114, 208), rgba(255, 255, 255, 0.73));
+    background: linear-gradient(90deg, rgb(6, 180, 208), rgba(255, 255, 255, 0.73));
     border: none;
     padding: 10px 30px;
-    font-size: 10px;
-    color: black;
+	font-size: 10px;
+	font-style: italic;
+	color: black;
     cursor: pointer;
     outline: none;
     border-radius: 6xp;
@@ -194,6 +194,7 @@ article hr{
     background: white;
     transform: translateY(5px);
     box-shadow: 0px 20px 3px -13px rgba(212, 212, 212);
+	
 }
 
 
@@ -205,8 +206,16 @@ article hr{
 
 /*OPCIONES DE REGISTRO CTP - GIOVANNY FIGUEROA GARCIA*/
 
+#boton{
+
+}
+
 body { 
-	background-color: black; 
+	background-image: url(../img/banner1.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: "Courier New", Courier, monospace
 }
 
 .logo-ponal img{
@@ -238,8 +247,13 @@ hr{
     height: 2px;
     border-style: none;
     background: -webkit-linear-gradient(left, black, #0672d0);
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 0px;
+}
+
+.opciones p{
+    font-size: 11px;
+	font-style: italic;
 }
 
 .encabezado{

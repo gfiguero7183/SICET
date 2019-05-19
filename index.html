@@ -10,6 +10,7 @@
 	color: #FFF;
 }
     </style>
+    <script src="js/codigo-SICET.js" language="javascript" type="text/javascript"></script>
 </head>
     <body>
     <br/>
@@ -23,10 +24,10 @@
     <br/>
     <br/>
    	<form action="">
-             	<h2>INGRESE SU INFORMACIÓN</h2>
-         	<input type= "text" "USUARIO" placeholder="&#128272; Nombre Usuario" name="usuario" required>
-         	<input type= "password" "CONTRASEÑA" placeholder="&#128273; Contraseña" name="clave" required>
-         	<input type="submit" value="INGRESAR A SICET" id="boton">
+            <h2>INGRESE SU INFORMACIÓN</h2>
+         	<input type= "text" "USUARIO" placeholder="&#128272; Nombre Usuario" name="usuario" id="usuario">
+         	<input type= "password" "CONTRASEÑA" placeholder="&#128273; Contraseña" name="clave" id="pass">
+         	<input type="button" value="INGRESAR A SICET" id="boton" onclick = "valdatoslogin()">
     	</form>
 </body>
 </html>
