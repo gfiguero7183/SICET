@@ -1,13 +1,13 @@
 
-  
+
   /* specific boxes */
-  
+
   .quienes  {
     text-align: center;
     padding: 20px;
     font-size: 20px;
     border: 6px solid rgba(0,0,0,0.5);
-   
+
     position:absolute;
    margin: 0 auto;
    left: 0;
@@ -30,13 +30,13 @@
     border-collapse: collapse;
     width: 100%;
   }
-  
+
   td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
   }
-  
+
   tr:nth-child(even) {
     background-color: #dddddd;
   }
@@ -57,10 +57,4 @@
     font-size: 35px;
     color: #36A0FF;
 }
-  
-  
-  
-#map {
-	height: 500px;
-	width: 100%;
-}
+
