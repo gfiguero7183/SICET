@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background: black;
+}
+
+.container-header{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+.logo-ppal{
+    display: flex;
+}
+
+.logo-ppal img{
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo-ppal h4{
+    color: white;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+/*PORTADA JOHN ALEXANDER SEGURA*/
+
+
+.container-portada{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-image: url(../imagenes/portada.jpg);
+    background-size: 200%;
+    animation: movimiento 20s infinite linear alternate;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+
+
+.capa-transp{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left, black, #0672d0);
+    opacity: 0.5;
+}
+
+.container-instru{
+    width: 100%;
+	height: auto;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+
+.instru{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: 20px;
+    color: white;
+}
+
+.instru h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.instru p{
+    margin-top: 10px;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.instru button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background: none;
+    border-style: none;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    transition: background 300ms;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.instru button:hover{
+    background: white;
+    color: black;
+}
+
+/*OPCIONES DE INGRESO JOHN ALEXANDER SEGURA*/
+
+main{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+article{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin-top: none;
+    padding-right: 20px;
+    background: black;
+    color: white;
+}
+
+article h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+article hr{
+    max-width: 500px;
+    height: 4px;
+    border-style: none;
+    background: -webkit-linear-gradient(left, black, #0672d0);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/*OPCIONES DE INGRESO CONTENEDOR 2 JOHN ALEXANDER SEGURA*/
+
+.content-dos{
+    width: 100%;
+    padding: 10px;
+    background: black;
+}
+
+.content-tres{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-item2{
+    width: 300px;
+    text-align: center;
+    margin: 8px;
+    color: aliceblue;
+    font-size: 10px;
+}
+
+.content-item2 p{
+    text-align: center;
+    margin-top: 20px;
+    color: #3b3838;
+    font-weight: 400;
+}
+
+.content-item2 button{
+    width: 150px;
+    background: linear-gradient(90deg, rgb(6, 180, 208), rgba(255, 255, 255, 0.73));
+    border: none;
+    padding: 10px 30px;
+	font-size: 10px;
+	font-style: italic;
+	color: black;
+    cursor: pointer;
+    outline: none;
+    border-radius: 6xp;
+}
+
+
+.content-item2 button:hover{
+    background: white;
+    transform: translateY(5px);
+    box-shadow: 0px 20px 3px -13px rgba(212, 212, 212);
+	
+}
+
+
+@media screen and (max-width: 500px){
+    .instru p{
+        font-size: 18px;
+    }
+}
+
+/*OPCIONES DE REGISTRO CTP - GIOVANNY FIGUEROA GARCIA*/
+
+
+body { 
+	background-image: url(../imagenes/banner1.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: "Courier New", Courier, monospace
+}
+
+.logo-ponal img{
+    width: 55px;
+    height: 55px;
+    margin-top: 3px;
+    margin-left: 1px;
+}
+
+h3{
+	font-size: 25px;
+	font-style: italic;
+	color:black;
+}
+h4{
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	color:black;
+}
+h5{
+	font-size: 14px;
+	font-style: italic;
+	color:white;
+}
+
+hr{
+    max-width: 1500px;
+    height: 2px;
+    border-style: none;
+    background: -webkit-linear-gradient(left, black, #0672d0);
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+.opciones p{
+    font-size: 11px;
+	font-style: italic;
+}
+
+.encabezado{
+	background-color:#F8F8F8;
+}
+
+.forma{
+	background-color:#F8F8F8;
+}
+
+#detalle{
+	background-color:#F8F8F8;
+}
+
+#pc{
+	background-color:#F8F8F8;
+}
+
+#conduccion{
+	background-color:#F8F8F8;
+	color:black;
+}
+
+#fcpass {
+	margin: auto;
+	width: 50%;
+	max-width:500px;
+	background: rgba(0,0,0,0.4);
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+
+.fcpass h2{
+	color: #fff;
+	text-align:center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+#boton{
+	background:#31384A;
+	color:#fff;
+	padding:10px;
+}
+
+#boton:hover{
+	cursor:pointer;
+}
+
+
