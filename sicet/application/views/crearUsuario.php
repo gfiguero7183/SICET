@@ -66,64 +66,64 @@
 </div>
 
 <div class="forma col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center" id="forma">
-	<form class="form-horizontal text-center" action="/action_page.php">
+	<form class="form-horizontal text-center" method="POST" action="guardar">
         <div class="form-group">
           <label class="control-label col-sm-2" for="nombre">Nombre:</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+            <input type="text" class="form-control" name="Nombres" id="nombre" placeholder="Ingrese su nombre">
           </div>
         </div>
         <div class="form-group">
             <label class="control-label col-sm-2" for="apellido">Apellido:</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+              <input type="text" class="form-control" name="Apellidos" id="apellido" placeholder="Ingrese su apellido">
             </div>
           </div>
         <div class="form-group">
           <label class="control-label col-sm-2" for="grado">Grado:</label>
           <div class="col-sm-10"> 
-            <input type="text" class="form-control" id="grado" placeholder="Ingrese Grado">
+            <input type="text" class="form-control" name="Grado" id="grado" placeholder="Ingrese Grado">
           </div>
         </div>
         <div class="form-group">
             <label class="control-label col-sm-2" for="email">Unidad:</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="email" placeholder="Ingrese Unidad">
+              <input type="text" class="form-control" name="Unidad" id="email" placeholder="Ingrese Unidad">
             </div>
           </div>
           <div class="form-group">
             <label class="control-label col-sm-2" for="rol">Rol:</label>
             <div class="col-sm-10"> 
-              <input type="text" class="form-control" id="rol" placeholder="Ingrese rol">
+              <input type="text" class="form-control" name="Rol" id="rol" placeholder="Ingrese rol">
             </div>
           </div>
           <div class="form-group">
             <label class="control-label col-sm-2" for="dir">Dirección:</label>
             <div class="col-sm-10"> 
-              <input type="text" class="form-control" id="dir" placeholder="Ingrese dirección">
+              <input type="text" class="form-control" name="Direccion" id="dir" placeholder="Ingrese dirección">
             </div>
           </div>
           <div class="form-group">
             <label class="control-label col-sm-2" for="tel">Telefono:</label>
             <div class="col-sm-10"> 
-              <input type="number" class="form-control" id="tel" placeholder="Ingrese Telefono">
+              <input type="number" class="form-control" name="Telefono" id="tel" placeholder="Ingrese Telefono">
             </div>
           </div>
           <div class="form-group">
             <label class="control-label col-sm-2" for="usuario">Usuario:</label>
             <div class="col-sm-10"> 
-              <input type="text" class="form-control" id="usuario" placeholder="Ingrese usuario">
+              <input type="text" class="form-control" name="Usuario" id="usuario" placeholder="Ingrese usuario">
             </div>
           </div>
           <div class="form-group">
             <label class="control-label col-sm-2" for="pwd">Password:</label>
             <div class="col-sm-10"> 
-              <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+              <input type="password" class="form-control" id="pwd" name="Password" placeholder="Enter password">
             </div>
           </div>
         <div class="form-group"> 
           <div class="col-sm-offset-2 col-sm-10">
-            <button type="submit" class="btn btn-default">Aceptar</button>
+            <button type="submit" class="btn btn-default" value ="guardar">Aceptar</button>
           </div>
         </div>
       </form>

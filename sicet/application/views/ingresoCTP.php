@@ -66,39 +66,39 @@
 </div>
 
 <div class="forma col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 text-center" id="forma">
-	<form>
-		<input type="text" size="5" id="tipoid" placeholder="ID" autocomplete="on">
-		<input type="text" id="identificacion" placeholder="Identificacion" autocomplete="on" onkeypress="return validarnumeros(event)">
-		<input type="text" id="genero" placeholder="Genero" autocomplete="on">
-		<input type="date" id="f_nacimiento">
-		<input type="text" size="4" id="edad" placeholder="Edad" readonly onmousedown="return false;"><br>
-		<input type="text" size="35" id="apellidos" placeholder="Apellidos">
-		<input type="text" size="35" id="nombres" placeholder="Nombres">
-		<input type="text" size="8" id="telefono" placeholder="Telefono" autocomplete="on" onkeypress="return validarnumeros(event)">
+	<form method="POST" action="guardar">
+		<input type="text" size="5" id="tipoid" name="id" placeholder="ID" autocomplete="on">
+		<input type="text" id="identificacion" name="Identificación" placeholder="Identificacion" autocomplete="on" onkeypress="return validarnumeros(event)">
+		<input type="text" id="genero" name="Genero" placeholder="Genero" autocomplete="on">
+		<input type="date" id="f_nacimiento" name="FechaNacimiento" >
+		<input type="text" size="4" id="edad" name="Edad" placeholder="Edad" ><br>
+		<input type="text" size="35" id="apellidos" name="Apellidos" placeholder="Apellidos">
+		<input type="text" size="35" id="nombres" name="Nombres" placeholder="Nombres">
+		<input type="text" size="8" id="telefono" name="Telefono" placeholder="Telefono" autocomplete="on" onkeypress="return validarnumeros(event)">
 	<hr>
-		<input type="text" id="nreg" placeholder="N° Registro" autocomplete="on" readonly onmousedown="return false;">
-		<input type="date" id="f_ingreso">
-		<input type="time" id="h_ingreso">
+		<input type="text" id="nreg" placeholder="N° Registro" name="NumeroRegistro" autocomplete="on">
+		<input type="date" id="f_ingreso" name="FechaIngreso">
+		<input type="time" id="h_ingreso" name="HoraIngreso">
 		<hr>
 		<div class="col-md-12" id="detalle">
 		  <article class="col-md-6" id="pc">
 		    <h4 class="text-center">Policia Conduce</h4>
-		    <input type="text" size="15" id="idpolicia" placeholder="Identificacion" autocomplete="on">
-		  		<input type="text" size="8" id="placapolicia" placeholder="Placa" autocomplete="on">
+		    <input type="text" size="15" id="idpolicia" name="IdentificacionPolicia" placeholder="Identificacion" >
+		  		<input type="text" size="8" id="placapolicia" name="Placa" placeholder="Placa" >
 		  		<br>
-		  		<input type="text" size="45" id="appolicia" placeholder="Apellidos">
-				<input type="text" size="45" id="nmpolicia" placeholder="Nombres">
+		  		<input type="text" size="45" id="appolicia" name="ApellidosPolicia" placeholder="Apellidos">
+				<input type="text" size="45" id="nmpolicia" name="NombresPolicia" placeholder="Nombres">
 		  </article>
        	  <article class="col-md-6" id="conduccion">
        	    <h4 class="text-center">Detalle Conduccion</h4>
-       	    <input type="date" id="f_conduccion">
-			<input type="time" id="h_detencion">
+       	    <input type="date" id="f_conduccion" name="FechaDetalle">
+			<input type="time" id="h_detencion" name="HoraDetalle">
 			<br>
-			<input type="text" size="35" id="motivo" placeholder="Motivo" autocomplete="on">
+			<input type="text" size="35" id="motivo" name="MotivoDetalle" placeholder="Motivo" autocomplete="on">
        	  </article>
       </div>
       <div>
-      	<input type="button" value= "GRABAR INGRESO"><br>
+      	<input type="button" value="guardar"><br>
       </div>
       
 	</form>
